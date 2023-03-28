@@ -1,0 +1,28 @@
+#game {
+  margin: 50px auto;
+  width: 800px;
+  height: 500px;
+  position: relative;
+}
+#main-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 500px;
+}
+#choices {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.choice {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  cursor: pointer;
+}
